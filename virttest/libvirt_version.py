@@ -25,7 +25,7 @@ def version_compare(major, minor, update):
     :param minor: Minor version to compare against
     :param update: Update value to compare against
     :return: True if running version is greater than or
-             equal to the input libvirt version
+                  equal to the input libvirt version
     """
     global LIBVIRT_LIB_VERSION
 
